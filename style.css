@@ -2087,50 +2087,51 @@ textarea.form-control {
   opacity: 0.95;
 }
 
-/* Seamless White Serif Info Text (Matching brand font, Title case, no card background) */
+/* Seamless Orange Labels & Crisp White Details (Matching brand font, Title case, no card background) */
 .hero-info-seamless {
   text-align: center;
-  margin: 0.5rem 0 1.25rem 0;
+  margin: 0.75rem 0 1.5rem 0;
   max-width: 900px;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.45rem;
   font-family: var(--font-serif);
 }
 
 .hero-info-line {
   font-family: var(--font-serif);
   font-size: 1.05rem;
-  color: #ffffff;
+  line-height: 1.5;
   letter-spacing: 0.5px;
-  line-height: 1.5;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
 }
 
-.hero-info-dot {
-  color: #d97706;
-  margin: 0 10px;
-  font-weight: bold;
-}
-
-.hero-info-address {
+.lbl-orange {
+  color: #f59e0b; /* Bright Theme Orange / Amber */
+  font-weight: 700;
   font-family: var(--font-serif);
-  font-size: 0.95rem;
-  color: #f3f4f6;
-  line-height: 1.5;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  margin-right: 6px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95), 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-.hero-link-white {
-  color: #ffffff;
+.val-white {
+  color: #ffffff; /* Crisp White Details */
   font-weight: 600;
+  font-family: var(--font-serif);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95), 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.val-white-link {
+  color: #ffffff; /* Crisp White Clickable Link */
+  font-weight: 600;
+  font-family: var(--font-serif);
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95), 0 0 12px rgba(0, 0, 0, 0.9);
   transition: var(--transition-fast);
 }
 
-.hero-link-white:hover {
-  color: #f59e0b;
+.val-white-link:hover {
+  color: #fbbf24;
 }
 
 .hero-tagline {
