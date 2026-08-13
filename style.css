@@ -2087,6 +2087,61 @@ textarea.form-control {
   opacity: 0.95;
 }
 
+/* Contact Details directly under brand name in crisp white & gold */
+.hero-contact-header-text {
+  text-align: center;
+  margin: 0.5rem 0 1.25rem 0;
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 0.85rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.hero-contact-line-primary {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-contact-line-address {
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  color: #f3f4f6;
+  font-weight: 400;
+  line-height: 1.4;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.lbl-gold {
+  color: #f59e0b; /* Bright Gold Accent */
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.hero-white-link {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: var(--transition-fast);
+}
+
+.hero-white-link:hover {
+  color: #f59e0b;
+}
+
 .hero-tagline {
   font-family: var(--font-sans);
   font-size: 0.8rem;
@@ -2094,80 +2149,7 @@ textarea.form-control {
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #d97706; /* Warm Amber Gold */
-  margin-bottom: 1rem;
-}
-
-/* Business Card Details Block (Owner Requirement) */
-.hero-business-card {
-  background: rgba(25, 12, 4, 0.65);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(217, 119, 6, 0.45);
-  border-radius: 14px;
-  padding: 1.25rem 2rem;
-  margin-bottom: 2rem;
-  max-width: 720px;
-  width: 100%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  text-align: center;
-  transition: var(--transition-mid);
-}
-
-.hero-business-card:hover {
-  border-color: rgba(217, 119, 6, 0.8);
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.6);
-  transform: translateY(-2px);
-}
-
-.card-lbl {
-  font-family: var(--font-sans);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  color: #d97706;
-  text-transform: uppercase;
-  margin-right: 4px;
-}
-
-.card-val {
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--cream-pure);
-  letter-spacing: 1px;
-}
-
-.card-phones {
-  font-size: 0.95rem;
-  color: var(--cream-pure);
-}
-
-.card-phone-link {
-  color: var(--cream-pure);
-  font-weight: 700;
-  font-family: var(--font-sans);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  transition: var(--transition-fast);
-}
-
-.card-phone-link:hover {
-  color: #f59e0b;
-}
-
-.card-sep {
-  color: rgba(252, 251, 249, 0.4);
-  margin: 0 6px;
-}
-
-.card-address {
-  font-size: 0.88rem;
-  color: var(--cream-dark);
-  line-height: 1.45;
-  font-family: var(--font-sans);
+  margin-bottom: 1.75rem;
 }
 
 .hero h1 {
