@@ -2087,58 +2087,49 @@ textarea.form-control {
   opacity: 0.95;
 }
 
-/* Contact Details directly under brand name in crisp white & gold */
-.hero-contact-header-text {
+/* Seamless White Serif Info Text (Matching brand font, Title case, no card background) */
+.hero-info-seamless {
   text-align: center;
   margin: 0.5rem 0 1.25rem 0;
-  max-width: 860px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
-  background: rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  padding: 0.85rem 1.5rem;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  gap: 0.4rem;
+  font-family: var(--font-serif);
 }
 
-.hero-contact-line-primary {
-  font-family: var(--font-sans);
-  font-size: 0.95rem;
+.hero-info-line {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
   color: #ffffff;
-  font-weight: 500;
   letter-spacing: 0.5px;
-  line-height: 1.4;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  line-height: 1.5;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
 }
 
-.hero-contact-line-address {
-  font-family: var(--font-sans);
-  font-size: 0.86rem;
+.hero-info-dot {
+  color: #d97706;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.hero-info-address {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
   color: #f3f4f6;
-  font-weight: 400;
-  line-height: 1.4;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  line-height: 1.5;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
 }
 
-.lbl-gold {
-  color: #f59e0b; /* Bright Gold Accent */
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-}
-
-.hero-white-link {
+.hero-link-white {
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: var(--transition-fast);
 }
 
-.hero-white-link:hover {
+.hero-link-white:hover {
   color: #f59e0b;
 }
 
